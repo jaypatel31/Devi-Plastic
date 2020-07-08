@@ -1,6 +1,8 @@
+
 body{
     font-size:16px;
     color:#D6BD9F;
+	overflow-x:hidden;
     background-color: #006937;
     font-family: 'Oxygen', sans-serif;
 }
