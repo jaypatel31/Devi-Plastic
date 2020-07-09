@@ -6,6 +6,9 @@ body{
     background-color: #006937;
     font-family: 'Oxygen', sans-serif;
 }
+body,html {
+overflow-x: hidden;
+}
 #header-nav{
     background-color: #F2A74B;
     border-radius:0px;
