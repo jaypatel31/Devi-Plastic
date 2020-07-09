@@ -20,6 +20,32 @@ body{
 .navbar-brand{
     padding-top: 25px;
 }
+
+#back2Top{
+	width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: -50px;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+	transition:0.5s ease;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #F2A74B;
+    color: #006937;
+}
 .water{
 	 background: url('../images/water1.png') no-repeat;
 }
@@ -205,8 +231,13 @@ body{
     .container .jumbotron{
         background: url('../images/front.jpeg') no-repeat;
         height: 675px;
-       
     }
+	.navbar h1{
+		line-height:2;
+	}
+	.navbar-brand p{
+		margin-top:5px;
+	}
   }
   /*Medium device only*/
   @media (min-width:992px) and (max-width:1199px){
