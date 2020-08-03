@@ -125,11 +125,11 @@ overflow-x: hidden;
   }
 
   #menu-tile{
-      background: url('../images/tap.jpg') no-repeat;
+      background: url('../images/menu.jpg') no-repeat;
       background-position: center;
   }
   #specials-tile{
-      background: url('../images/tap2.jpg') no-repeat;
+      background: url('../images/special.jpeg') no-repeat;
       background-position: center;
   }
   #menu-tile span, #specials-tile span, #map-tile span{
@@ -208,7 +208,10 @@ overflow-x: hidden;
     margin-right: -15px;
     margin-left: auto;
     margin-bottom: 20px;
-    max-width: 250px;
+    max-width: 200px;
+  }
+  .menu-item-photo img{
+	  height:200px;
   }
   .menu-item-photo div {
     position: absolute;
